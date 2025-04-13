@@ -1,0 +1,15 @@
+
+target/thumbv7em-none-eabihf/debug/run_in_handler:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+08000008 <Reset>:
+ 8000008:	b081      	sub	sp, #4
+ 800000a:	202a      	movs	r0, #42	; 0x2a
+ 800000c:	9000      	str	r0, [sp, #0]
+ 800000e:	e7ff      	b.n	8000010 <Reset+0x8>
+ 8000010:	e7fe      	b.n	8000010 <Reset+0x8>
+
+target/thumbv7em-none-eabihf/debug/run_in_handler:     file format elf32-littlearm
+
